@@ -1,0 +1,9 @@
+{
+  "autoConvertHtml": false,
+  "vimMode": true,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newFileFolderPath": "KERNEL_KEEP",
+  "promptDelete": false
+}

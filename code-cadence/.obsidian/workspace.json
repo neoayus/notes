@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "8a158d922b277c7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb22122e3154fd8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6faf45d04f2d12d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "webDev/Event Handling in JS using DOM Events.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bed6585b763d082d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a3732dd4e09ef7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f00c41ad0f0868f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8f6cff3decda8415",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f78731d7f8b04cf1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 212.50260543823242
+  },
+  "right": {
+    "id": "6f6ea4a461375240",
+    "type": "split",
+    "children": [
+      {
+        "id": "887c715731425da8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "652eabc1ef579811",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "def69a791f9f4cf5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "webDev/Event Handling in JS using DOM Events.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "79df3ae00c8bc14b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "webDev/Event Handling in JS using DOM Events.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e1c19b42e87b4611",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "webDev/Event Handling in JS using DOM Events.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 210.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "tags-overview:Tags overview": false,
+      "pomodoro-timer:Toggle timer panel": false
+    }
+  },
+  "active": "e6faf45d04f2d12d",
+  "lastOpenFiles": [
+    "webDev/Event Handling in JS using DOM Events.md",
+    "webDev/DOM (document object manipulation).md",
+    "webDev/PRE-DEFINED FUNCTIONS IN JS.md",
+    "webDev/JAVA SCRIPT.md",
+    "webDev/CSS.md",
+    "CONVENTIONS_I_USE.md",
+    "2024-08-28.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "webDev/basic js.md",
+    "webDev/previously written HTML notes..md",
+    "webDev/PROJECT LEARNING.md",
+    "webDev/HTML.md",
+    "webDev/markdown.MD.md",
+    "webDev/basic java_script revision.md",
+    "webDev/This is How to  link External JS files in Html.md",
+    "webDev/html",
+    "webDev",
+    "I WANA KNOW HOW LINKS WORK HERE..md",
+    "www..google.com.md",
+    "markDown.md",
+    "KERNEL_KEEP",
+    "3) Templates",
+    "2) Tags",
+    "1) Rough Notes",
+    "obsidian-tutorial.md",
+    "Welcome.md",
+    "create a link.md",
+    "this.md",
+    "link.md"
+  ]
+}
