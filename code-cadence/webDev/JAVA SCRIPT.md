@@ -70,3 +70,74 @@ The DOM allows JavaScript (or other languages) to access and manipulate the cont
 
 >> Detailed note on [[Event Handling in JS using DOM Events]]... 
 
+# Break Points
+A **breakpoint** in JavaScript is a tool used in debugging that allows developers to pause the execution of their code at a specific line or instruction. When the code execution is paused at a breakpoint, you can inspect variables, step through the code line by line, and understand how your code is behaving at that moment. Breakpoints are essential for diagnosing and fixing bugs.
+
+try putting breakpoints in: 
+```
+function one(){
+    return 1 ;
+}
+
+function two(){
+    return one() + one() ; 
+}
+
+function three(){
+    return two() + one() ; 
+    console.log(ans); 
+}
+
+three() ;
+```
+
+
+# Callback Hell : 
+Callback hell, also known as "Pyramid of Doom," refers to a situation in JavaScript where multiple nested callbacks create deeply indented code, making it difficult to read, maintain, and debug. This often occurs when **dealing with asynchronous operations,** where each operation depends on the completion of the previous one.
+
+Callback Hell can be  avoided by :  
+1. Promises 
+2.  `async` and `await` 
+
+## Promise: 
+Promise is a **java script object** represents the eventual completion (or failure) of an asynchronous operation and it's result value. 
+
+Promises in JavaScript are a way to handle asynchronous operations more effectively and avoid callback hell. A promise represents a value that may be available now, in the future, or never. It's essentially an object that holds the eventual result of an asynchronous operation.
+
+***3 Stages in Promise :***   
+1. pending 
+2. rejected 
+3. fulfilled  
+
+```
+function <functionName>(<parameter>){
+	return new Promise(resolve, reject){
+		let inaternterSpeed = Math.flooe(Math.random() *10 ) + 1; 
+		if(internetSpeed > 4){
+			resolve("<success: data was saved>") ; 	
+		}else{
+			reject("<failure: weak connection>") ; 	
+		}
+	}
+}
+```
+ `resolve` : success callback. 
+ `reject` : failure callback. 
+### Promise Methods 
+as Promise is an object. it has it's own methods.. 
+1. `then()` :  is used to specify what should happen when a promise is successfully resolved. 
+2. `catch` :   is used to handle any errors or rejections that occur in the promise chain. It allows you to define a callback that will be invoked if the promise is rejected.
+
+
+# Async Function.
+
+`a-sync` and `await` keywords. 
+## 1. `async` keyword 
+is used to create an async function. 
+```
+async function greet(){
+	return "hellow slime!";  //returns a promise. 
+}
+
+let hello = async => {} ;  //returns a promise. 
+```

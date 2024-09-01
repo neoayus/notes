@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bb22122e3154fd8f",
+        "id": "8f190470f8a71a2a",
         "type": "tabs",
         "children": [
           {
-            "id": "e6faf45d04f2d12d",
+            "id": "0bfd14f755e135ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webDev/Event Handling in JS using DOM Events.md",
+                "file": "REACT.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webDev/Event Handling in JS using DOM Events.md",
+                "file": "REACT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webDev/Event Handling in JS using DOM Events.md",
+                "file": "REACT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webDev/Event Handling in JS using DOM Events.md"
+                "file": "REACT.md"
               }
             }
           }
@@ -148,21 +148,23 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "e6faf45d04f2d12d",
+  "active": "0bfd14f755e135ce",
   "lastOpenFiles": [
-    "webDev/Event Handling in JS using DOM Events.md",
-    "webDev/DOM (document object manipulation).md",
-    "webDev/PRE-DEFINED FUNCTIONS IN JS.md",
+    "REACT.md",
+    "webDev/APIs.md",
     "webDev/JAVA SCRIPT.md",
+    "webDev/basic js.md",
+    "webDev/DOM (document object manipulation).md",
+    "webDev/PROJECT LEARNING.md",
+    "webDev/PRE-DEFINED FUNCTIONS IN JS.md",
+    "webDev/Event Handling in JS using DOM Events.md",
     "webDev/CSS.md",
     "CONVENTIONS_I_USE.md",
     "2024-08-28.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "webDev/basic js.md",
     "webDev/previously written HTML notes..md",
-    "webDev/PROJECT LEARNING.md",
     "webDev/HTML.md",
     "webDev/markdown.MD.md",
     "webDev/basic java_script revision.md",

@@ -8,7 +8,9 @@
 6.  Everything in JS has `Truth` and `False` values in Boolean context. 
 7. `const`   keyword is used to make constant vars. 
 8.  `this` keyword is refers to an object that is executing the current piece of code. also, used as object name insider object function. 
-9. 
+9.  JS is **Single Threaded** Language. 
+	>While Browser who is written in cpp or java is multithreaded. so, using **setTimeout** can allow as achieve a multi-threading model in JS
+	
 ## How to assign variables?
 `let` and `var` keywords are used in JS to assign variables 
 example: 
