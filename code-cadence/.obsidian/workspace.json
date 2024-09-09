@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8f190470f8a71a2a",
+        "id": "2433334faeab17a1",
         "type": "tabs",
         "children": [
           {
-            "id": "0bfd14f755e135ce",
+            "id": "e79d60b1c41248a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REACT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4c190651b738307",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL queries;.md",
+                "file": "academics/academics__web-dev/UNIT 01.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL queries;.md",
+                "file": "academics/academics__web-dev/UNIT 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL queries;.md",
+                "file": "academics/academics__web-dev/UNIT 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL queries;.md"
+                "file": "academics/academics__web-dev/UNIT 01.md"
               }
             }
           }
@@ -161,8 +148,13 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "a4c190651b738307",
+  "active": "e79d60b1c41248a2",
   "lastOpenFiles": [
+    "academics/academics__web-dev/UNIT 01.md",
+    "academics/academics__web-dev",
+    "academics/academics__python",
+    "academics",
+    "CONVENTIONS_I_USE.md",
     "REACT.md",
     "SQL queries;.md",
     "webDev/APIs.md",
@@ -173,7 +165,6 @@
     "webDev/PRE-DEFINED FUNCTIONS IN JS.md",
     "webDev/Event Handling in JS using DOM Events.md",
     "webDev/CSS.md",
-    "CONVENTIONS_I_USE.md",
     "2024-08-28.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
