@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "300ca1ebf80b7c92",
+        "id": "0b40e2ad7b79e912",
         "type": "tabs",
         "children": [
           {
-            "id": "0f0e07f5a0759f0d",
+            "id": "73d6a9da8b48fd81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "academics/academics__web-dev/UNIT 03.md",
+                "file": "webDev/PROJECT LEARNING.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "academics/academics__web-dev/UNIT 03.md",
+                "file": "webDev/PROJECT LEARNING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "academics/academics__web-dev/UNIT 03.md",
+                "file": "webDev/PROJECT LEARNING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "academics/academics__web-dev/UNIT 03.md"
+                "file": "webDev/PROJECT LEARNING.md"
               }
             }
           }
@@ -148,20 +148,26 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "0f0e07f5a0759f0d",
+  "active": "73d6a9da8b48fd81",
   "lastOpenFiles": [
-    "academics/academics__web-dev/UNIT 03.md",
-    "academics/academics__web-dev/UNIT 02.md",
-    "Pasted image 20240911150844.png",
-    "academics/academics__web-dev/UNIT 01.md",
+    "webDev/JAVA SCRIPT.md",
+    "www.json.org.md",
+    "CONVENTIONS_I_USE.md",
+    "REACT.md",
+    "PHP.md",
+    "academics/academics__web-dev/Pasted image 20240911150844.png",
+    "SQL queries;.md",
+    "WebD-04.md",
+    "webDev/markdown.MD.md",
+    "academics/academics__python/Python-01.md",
+    "academics/academics__web-dev/WebD-03.md",
+    "academics/academics__web-dev/WebD-02.md",
+    "academics/academics__web-dev/WebD-01.md",
+    "academics/NOTES FOR 3rd Semester..md",
     "academics/academics__web-dev",
     "academics/academics__python",
     "academics",
-    "CONVENTIONS_I_USE.md",
-    "REACT.md",
-    "SQL queries;.md",
     "webDev/APIs.md",
-    "webDev/JAVA SCRIPT.md",
     "webDev/basic js.md",
     "webDev/DOM (document object manipulation).md",
     "webDev/PROJECT LEARNING.md",
@@ -174,20 +180,14 @@
     "Untitled.canvas",
     "webDev/previously written HTML notes..md",
     "webDev/HTML.md",
-    "webDev/markdown.MD.md",
     "webDev/basic java_script revision.md",
     "webDev/This is How to  link External JS files in Html.md",
     "webDev/html",
     "webDev",
     "I WANA KNOW HOW LINKS WORK HERE..md",
-    "www..google.com.md",
-    "markDown.md",
     "KERNEL_KEEP",
     "3) Templates",
     "2) Tags",
-    "1) Rough Notes",
-    "obsidian-tutorial.md",
-    "Welcome.md",
-    "create a link.md"
+    "1) Rough Notes"
   ]
 }

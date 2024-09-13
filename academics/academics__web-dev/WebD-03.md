@@ -342,3 +342,9 @@ In the examples above, the `fruits` array contains three strings, while the `num
 # Event handling and DOM 
 
 
+
+----
+----
+----
+# UNIT 03 ENDS HERE ! 
+# \>GO TO [UNIT 04](WebD-04) 
