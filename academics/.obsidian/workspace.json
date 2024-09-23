@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "88d58ecff8b0b88e",
+            "id": "1a0bc08af359d1be",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "academics__python/Python-03 (FUNCTIONS).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "academics__python/Python-03 (FUNCTIONS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "academics__python/Python-03 (FUNCTIONS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "academics__python/Python-03 (FUNCTIONS).md"
+              }
             }
           }
         ]
@@ -138,15 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88d58ecff8b0b88e",
+  "active": "1a0bc08af359d1be",
   "lastOpenFiles": [
+    "academics__python/Python-01 (Python Overview).md",
+    "academics__python/Python-02 (Strings, Lists, Tuples, Dictionaried).md",
+    "academics__python/Python-03 (FUNCTIONS).md",
     "NOTES FOR 3rd Semester..md",
     "academics__web-dev/WebD-03.md",
     "academics__web-dev/WebD-02.md",
     "academics__web-dev/WebD-01.md",
     "academics__web-dev/Pasted image 20240911150844.png",
     "academics__web-dev",
-    "academics__python/Python-01.md",
     "academics__python",
     "Welcome.md"
   ]

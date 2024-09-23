@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webDev/PROJECT LEARNING.md",
+                "file": "webDev/basic js.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webDev/PROJECT LEARNING.md",
+                "file": "webDev/basic js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webDev/PROJECT LEARNING.md",
+                "file": "webDev/basic js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webDev/PROJECT LEARNING.md"
+                "file": "webDev/basic js.md"
               }
             }
           }
@@ -150,10 +150,15 @@
   },
   "active": "73d6a9da8b48fd81",
   "lastOpenFiles": [
+    "webDev/DOM (document object manipulation).md",
     "webDev/JAVA SCRIPT.md",
+    "webDev/PRE-DEFINED FUNCTIONS IN JS.md",
+    "webDev/previously written HTML notes..md",
+    "webDev/PROJECT LEARNING.md",
+    "webDev/REACT.md",
     "www.json.org.md",
+    "webDev/CSS.md",
     "CONVENTIONS_I_USE.md",
-    "REACT.md",
     "PHP.md",
     "academics/academics__web-dev/Pasted image 20240911150844.png",
     "SQL queries;.md",
@@ -169,16 +174,11 @@
     "academics",
     "webDev/APIs.md",
     "webDev/basic js.md",
-    "webDev/DOM (document object manipulation).md",
-    "webDev/PROJECT LEARNING.md",
-    "webDev/PRE-DEFINED FUNCTIONS IN JS.md",
     "webDev/Event Handling in JS using DOM Events.md",
-    "webDev/CSS.md",
     "2024-08-28.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "webDev/previously written HTML notes..md",
     "webDev/HTML.md",
     "webDev/basic java_script revision.md",
     "webDev/This is How to  link External JS files in Html.md",
