@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webDev/basic js.md",
+                "file": "PROJECT LEARNING.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webDev/basic js.md",
+                "file": "PROJECT LEARNING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webDev/basic js.md",
+                "file": "PROJECT LEARNING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webDev/basic js.md"
+                "file": "PROJECT LEARNING.md"
               }
             }
           }
@@ -150,11 +150,12 @@
   },
   "active": "73d6a9da8b48fd81",
   "lastOpenFiles": [
+    "webDev/basic js.md",
     "webDev/DOM (document object manipulation).md",
     "webDev/JAVA SCRIPT.md",
     "webDev/PRE-DEFINED FUNCTIONS IN JS.md",
     "webDev/previously written HTML notes..md",
-    "webDev/PROJECT LEARNING.md",
+    "PROJECT LEARNING.md",
     "webDev/REACT.md",
     "www.json.org.md",
     "webDev/CSS.md",
@@ -173,7 +174,6 @@
     "academics/academics__python",
     "academics",
     "webDev/APIs.md",
-    "webDev/basic js.md",
     "webDev/Event Handling in JS using DOM Events.md",
     "2024-08-28.md",
     "Untitled 2.canvas",

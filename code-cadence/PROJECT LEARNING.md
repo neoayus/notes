@@ -1,5 +1,16 @@
 #html #css #project
-## Black Overlay on a Image in the Same div. 
+# **Including Fonts (CSS)**
+[]
+```cs
+@font-face{
+	font-family : Inter ;
+	src: url(../directory) ;
+}
+body{
+	font-family: Inter ;
+}
+```
+# Black Overlay on a Image in the Same div. 
 ```
 same_div{
 	 //rest of css
@@ -16,7 +27,7 @@ same_div{
 }
 
 ```
-### Playing around withe the ::before pseudo element. 
+# Playing around withe the ::before pseudo element. 
 
 #### GOAL : is to set the content in properties to be shown in background rather than on top as overlay. 
 #### HTML : 
@@ -108,17 +119,17 @@ same_div{
 ```
 
 
-## How to add Gradient in CSS
+# How to add Gradient in CSS
 ```
 background : linear-gradient(to right, #color_one, #color_two); 
 background : radial-gradient(circle, #color_one, #color_two); 
 ```
 
-### Horizontal Row CSS properties 
+# Horizontal Row CSS properties 
 ***TAG :***  `<hr>` 
 
  **properties:**
-````
+```
 	border : none; // removes the default border 
 	border-top: 1px solid #000 ; // adds a top border with color.
 			  : 2px dashed/dotted black ; 
@@ -128,6 +139,71 @@ background : radial-gradient(circle, #color_one, #color_two);
 		margin : 0 auto ; // center aligns the hr. 
 
 	background-color: white; 
-	
-	
+```
+
+
+
+# Initial CSS code : 
+```c
+/* including font  */
+@font-face {
+    font-family: NunitoSans;
+    src: url(./assets/fonts/NunitoSans.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto.ttf);
+}
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(./assets/fonts/RobotoCondensed.ttf);
+}
+
+/* CSS Variables  */
+:root{
+ /* color variables */
+     --black: #000000 ;
+    --darker: #012326 ; 
+    --dark: #013a40 ; 
+    --mid: #025e73 ; 
+    --light: #4193a6 ; 
+    --lighter: #84b9bf ; 
+    --white: #ffffff ;
+ /* font-variables  */
+    --font-size: 1.3rem ;
+    --robo: Roboto ;
+    --Nuno: NunitoSans  ;
+}
+
+/* CSS Normalization / border-box model  */
+html{
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+ *::after{
+    box-sizing: inherit;
+ }
+
+body{
+    padding: 0 ; 
+    margin : 0 ; 
+    font-family: 'Robot', 'NunitoSans', 'RobotoCondensed' ; 
+}
+
+```
+
+# Screen reader percautions for icons 
+
+While using icons, make them invisible for screen-readers and instead add a sr-only class to some text after that. 
+
+**ICON**
+```c
+<i class="fa-brands fa-linkedin" aria-hidden="true">
+```
+
+**Text with Icon (alt text  for icon) for  Screen Readers**
+```c
+<span class="sr-only">ICON</span>  //this will make it visible to scree readers only
 ```
