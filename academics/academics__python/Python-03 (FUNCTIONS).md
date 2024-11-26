@@ -203,6 +203,5 @@ print(dog.speak())  # Output: Woof!
 ```
 Here, `Dog` inherits from `Animal` but overrides the `speak` method with its own implementation.
 
----
-
-These detailed notes should help you understand the key concepts and give you solid material to write for your exams. Let me know if you need any further clarification!
+# UNIT 03 ENDS HERE ! 
+# \>GO TO [UNIT 04](Python-04%20(GUI).md)  

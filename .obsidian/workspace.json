@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "4e2f5c151a77028c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cccc7e5b423372e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fcdbed373460d4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "academics/academics__python/Python-04 (GUI).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b5cb42d495160d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d0c363924190939",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3a2b8e40874ec8e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8ab35f9be7a4bd5b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2674d349bd4b062b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5e1a73aeedf9e709",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c07ff7df7e1056e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6f0fc1a153ec5dc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "academics/academics__python/Python-04 (GUI).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6679cdc80f22e628",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "academics/academics__python/Python-04 (GUI).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c91b69e726b51003",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8b54e56655f0dd6b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "academics/academics__python/Python-04 (GUI).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6fcdbed373460d4f",
+  "lastOpenFiles": [
+    "academics/academics__python/Python-04 (GUI).md",
+    "academics/academics__python/Python-05 (Multi-Threading).md",
+    "academics/academics__python/Python-03 (FUNCTIONS).md",
+    "academics/academics__python/Python-02 (Strings, Lists, Tuples, Dictionaried).md",
+    "academics/academics__web-dev/WebD-05.md",
+    "academics/academics__web-dev/WebD-04.md",
+    "academics/NOTES FOR 3rd Semester..md",
+    "academics/academics__web-dev/WebD-03.md",
+    "academics/academics__web-dev/WebD-02.md"
+  ]
+}
