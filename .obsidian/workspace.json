@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cccc7e5b423372e3",
+        "id": "54c009e9b41399c8",
         "type": "tabs",
         "children": [
           {
-            "id": "6fcdbed373460d4f",
+            "id": "a90f60ac0c672a9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "academics/academics__python/Python-04 (GUI).md",
+                "file": "academics/academics__python/Python-05 (Multi-Threading).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "academics/academics__python/Python-04 (GUI).md",
+                "file": "academics/academics__python/Python-05 (Multi-Threading).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "academics/academics__python/Python-04 (GUI).md",
+                "file": "academics/academics__python/Python-05 (Multi-Threading).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "academics/academics__python/Python-04 (GUI).md"
+                "file": "academics/academics__python/Python-05 (Multi-Threading).md"
               }
             }
           }
@@ -146,15 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fcdbed373460d4f",
+  "active": "a90f60ac0c672a9c",
   "lastOpenFiles": [
-    "academics/academics__python/Python-04 (GUI).md",
     "academics/academics__python/Python-05 (Multi-Threading).md",
+    "academics/academics__python/Python-04 (GUI).md",
+    "academics/NOTES FOR 3rd Semester..md",
+    "academics/academics__web-dev/WebD-04.md",
+    "academics/academics__web-dev/WebD-05.md",
+    "academics/academics__web-dev/WebD-01.md",
     "academics/academics__python/Python-03 (FUNCTIONS).md",
     "academics/academics__python/Python-02 (Strings, Lists, Tuples, Dictionaried).md",
-    "academics/academics__web-dev/WebD-05.md",
-    "academics/academics__web-dev/WebD-04.md",
-    "academics/NOTES FOR 3rd Semester..md",
     "academics/academics__web-dev/WebD-03.md",
     "academics/academics__web-dev/WebD-02.md"
   ]

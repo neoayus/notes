@@ -52,8 +52,6 @@ button.pack()  # Add the button to the window
 root.mainloop()  # Run the GUI loop
 ```
 
-In this example:
-
 - The program waits for a button click event.
 - When the button is clicked, the function `on_button_click()` is executed.
 
@@ -105,7 +103,7 @@ label.pack()
 root.mainloop()
 ```
 
-- In this example, an image file `image.jpg` is opened and displayed in the Tkinter window using the `Label` widget.
+-  image file `image.jpg` is opened and displayed in the Tkinter window using the `Label` widget.
 
 ---
 
@@ -205,40 +203,7 @@ print(f"File selected: {filename}")
 This will open a file dialog, allowing the user to choose a file, and print the file path.
 
 ---
-
-### **Other Useful GUI Resources**
-
-- **Canvas**: A widget used for drawing shapes, images, or handling complex graphics.
-    
-    **Example**:
-    
-    ```python
-    canvas = tk.Canvas(root, width=400, height=400)
-    canvas.pack()
-    canvas.create_rectangle(50, 50, 150, 150, fill="blue")  # Draw a rectangle
-    ```
-    
-- **Frames**: Frames are containers used to group widgets together for better organization.
-    
-    **Example**:
-    
-    ```python
-    frame = tk.Frame(root)
-    frame.pack()
-    button1 = tk.Button(frame, text="Button 1")
-    button1.pack()
-    ```
-    
-
 ---
-
-### **Conclusion**
-
-- GUI-based programs are more user-friendly and visually appealing compared to terminal-based programs.
-- Tkinter is a common Python library for creating GUI applications, and it allows for easy event handling, widget management, and user interaction.
-- A GUI application is event-driven, where the program responds to user actions like button clicks, mouse movements, and text entry.
-- With Tkinter, developers can easily create windows, buttons, labels, entry fields, and other interactive elements to build comprehensive GUI applications.
-
-These notes should give you a clear understanding of the key concepts related to **Graphical User Interfaces** and how to implement them in Python using Tkinter. Let me know if you need more details!
+---
 # UNIT 04 ENDS HERE ! 
 # \>GO TO [UNIT 05](Python-05%20(Multi-Threading).md)  
