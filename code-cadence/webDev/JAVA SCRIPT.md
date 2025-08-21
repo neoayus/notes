@@ -44,8 +44,6 @@ there are some [[PRE-DEFINED FUNCTIONS IN JS]] that we ofenly use, and you shoul
 
 # Objects  : 
 i already know the basics of  #object in [[JAVA SCRIPT]] . 
->I'll just add new and important info. here.   
-
 ##### Default JS Object
 1. `window` :   
 2. `Document` : is used for [[DOM (document object manipulation)]] . 

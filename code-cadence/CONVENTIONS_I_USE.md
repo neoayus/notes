@@ -1,17 +1,8 @@
-
-## Indentation
-4 tab indentation with : 
-```
-int main{
-	return 0 ; 
-}
-```
-## Naming Conventions: 
-
+# Naming Conventions: 
 1. **File Name :**   'kebab' 
 		`this-is-my-random-ahh-file.md`
 		
-1. **Class Name :** 'pascal' 
+2. **Class Name :** 'pascal' 
 		`ThisIsAClassInCPP`
 		
 3. **Variable/Function Name :** 'camel' and 'snake' case 
@@ -27,7 +18,7 @@ int main{
  #css 
 + Always use double quotes. 
 + prefer rem nd em > px. 
-+ 
++ use BEM  
 ## BEM Convention 
 
 BEM Stands for **Block Element Modification.** 
