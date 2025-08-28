@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d8067c9b0566df90",
+        "id": "49cc432c7ec2ab0e",
         "type": "tabs",
         "children": [
           {
-            "id": "14c65698e758042c",
+            "id": "af4def1db76c724b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bca5/java/java.unit-01_02.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "java.unit-01_02"
-            }
-          },
-          {
-            "id": "aaddd3640acb7232",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bca5/java/java.unit-01_01.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "java.unit-01_01"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5e1a73aeedf9e709",
@@ -182,10 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aaddd3640acb7232",
+  "active": "af4def1db76c724b",
   "lastOpenFiles": [
+    "Untitled.base",
     "bca5/java/java.unit-02.md",
-    "bca5/java/java.unit-01_02.md",
+    "bca5/java/java.unit-01.md",
     "bca5/java/java.unit-01_01.md",
     "bca5/java/java.syllabus.md",
     "bca5/java",
@@ -211,7 +192,6 @@
     "academics/academics__web-dev/WebD-05.md",
     "academics/academics__web-dev/WebD-01.md",
     "academics/academics__python/Python-03 (FUNCTIONS).md",
-    "academics/academics__python/Python-02 (Strings, Lists, Tuples, Dictionaried).md",
-    "academics/academics__web-dev/WebD-03.md"
+    "academics/academics__python/Python-02 (Strings, Lists, Tuples, Dictionaried).md"
   ]
 }
