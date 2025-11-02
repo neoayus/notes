@@ -1261,3 +1261,143 @@ foreach (string f in arr)
     Console.WriteLine(f);
 ```
 
+
+# **Default Parameters and Named Parameters in C#**
+
+C# 4.0 introduced **default parameters** and **named parameters** to make method calls more flexible and readable.
+These features reduce the need for **method overloading** and improve code clarity.
+
+## Default Parameters**
+
+A **default parameter** is a parameter with a pre-defined value. If the caller does not supply an argument for that parameter, the default value is used.
+
+* Declared using the assignment operator `=` in the method signature.
+* Default values must be **compile-time constants** (like numbers, strings, `null`).
+
+```csharp
+void DisplayMessage(string name = "Guest")
+{
+    Console.WriteLine($"Hello, {name}!");
+}
+```
+
+### **Usage**
+```csharp
+DisplayMessage();          // Output: Hello, Guest!
+DisplayMessage("John");    // Output: Hello, John!
+```
+
+### **Advantages**
+* Reduces **method overloading** (no need to create multiple versions of the same method).
+* Provides flexibility in calling methods with fewer arguments.
+
+## Named Parameters**
+
+Named parameters allow the caller to specify arguments by **name**, regardless of their order in the method signature.
+
+* Useful when methods have many parameters, especially optional ones.
+* Increases readability.
+
+```csharp
+void PrintDetails(string name, int age, string city)
+{
+    Console.WriteLine($"{name}, {age}, from {city}");
+}
+```
+
+### **Usage**
+```csharp
+PrintDetails(name: "Alice", city: "Paris", age: 22);
+// Output: Alice, 22, from Paris
+```
+
+Here, the arguments are passed **out of order**, but the names make it valid.
+
+## **5. Key Points / Differences**
+
+| Feature          | Default Parameters                         | Named Parameters                     |
+| ---------------- | ------------------------------------------ | ------------------------------------ |
+| Purpose          | Provide default values for optional params | Allow calling arguments by name      |
+| Order importance | Must follow optional parameter rules       | Order does not matter                |
+| Reduces          | Method overloading                         | Ambiguity and confusion in arguments |
+| Introduced in    | C# 4.0                                     | C# 4.0                               |
+# Parse(), TryParse(), and Convert Class Methods in C#
+
+When dealing with **data conversion** in C#, especially when converting strings into numeric or other primitive types, three important approaches are commonly used: **Parse()**, **TryParse()**, and the **Convert class methods**. Although their end goal is similar—transforming one data type into another—their design philosophy, error handling, and reliability differ significantly. Understanding these distinctions is critical both theoretically and in practical applications.
+
+## . Parse() Method
+
+- **Definition**: The `Parse()` method is a static method provided by primitive data types (like `int.Parse()`, `double.Parse()`, `DateTime.Parse()`), which converts a **string representation** of a number (or date, etc.) into its corresponding strongly-typed value.
+    
+- **Namespace**: Belongs to the `System` namespace (e.g., `System.Int32.Parse`).
+   
+- **Behavior**:
+    
+    - Expects a **valid string** input that exactly matches the expected format.
+        
+    - If the input is invalid (e.g., `"abc"` when parsing to `int`) or `null`, it **throws an exception** (`FormatException` or `ArgumentNullException`).
+        
+- **Syntax**:
+    
+    ```csharp
+    int number = int.Parse("123");   // returns 123
+    int invalid = int.Parse("abc");  // throws FormatException
+    ```
+    
+- **Use case**: Useful when the input is guaranteed to be valid, e.g., controlled input from a trusted source.
+    
+
+## TryParse() Method
+
+- **Definition**: The `TryParse()` method is a safer alternative to `Parse()`. It attempts to convert a string to the target type and reports success or failure without throwing exceptions.
+    
+- **Behavior**:
+    
+    - Returns a `bool` indicating success (`true`) or failure (`false`).
+        
+    - Stores the converted result in an `out` parameter if successful; otherwise assigns the default value of the type.
+        
+    - Prevents performance issues and runtime crashes caused by exceptions during invalid conversions.
+        
+- **Syntax**:
+   
+```csharp
+   int result;
+   bool success = int.TryParse("123", out result);   // success = true, result = 123
+   
+   success = int.TryParse("abc", out result);        // success = false, result = 0
+```
+
+- **Use case**: Ideal in **user input validation** scenarios where strings may not be guaranteed to be correct.
+
+## Convert Class Methods
+
+- **Definition**: The `Convert` class provides a collection of static methods to convert a value from one type to another (e.g., string → int, double → string, etc.).
+   
+- **Namespace**: `System.Convert`
+   
+- **Behavior**:
+   - Internally uses `IConvertible` interface for conversions.
+   
+   - Handles `null` gracefully: instead of throwing an exception, it returns a **default value** (e.g., `0` for numbers, `false` for `bool`).
+   
+   - If the format is invalid (like `"abc"` to int), it still throws a `FormatException`.
+   
+- **Syntax**:
+```csharp
+   int number = Convert.ToInt32("123");   // returns 123
+   int defaultVal = Convert.ToInt32(null); // returns 0
+   int invalid = Convert.ToInt32("abc");   // throws FormatException
+```
+   
+- **Use case**: Suitable when handling potential `null` values or when dealing with conversions across different types (beyond just string-to-primitive).
+   
+## Comparative Summary
+
+| Feature            | Parse()                  | TryParse()                         | Convert Class Methods            |
+| ------------------ | ------------------------ | ---------------------------------- | -------------------------------- |
+| **Return Type**    | Target type (e.g., int)  | `bool` (success/failure)           | Target type (e.g., int)          |
+| **Error Handling** | Throws exceptions        | No exception; returns `false`      | Throws exception (invalid input) |
+| **Null Handling**  | `ArgumentNullException`  | Returns `false`, default out param | Returns default value (e.g., 0)  |
+| **Performance**    | Slower due to exceptions | Faster (no exceptions on failure)  | Comparable to Parse()            |
+| **Best Use Case**  | Guaranteed valid data    | User input / unpredictable data    | Conversions with possible `null` |
