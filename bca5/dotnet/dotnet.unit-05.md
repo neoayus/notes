@@ -1,19 +1,4 @@
 ## Unit 05: ADO.NET Architecture:
-
-Using server explorer window
-Connection class
-Command class
-Direct Command execution against database
-Using Parameters in command
-Performing CRUD operations 
-Connected Vs disconnected Architecture
-Data reader class
-The dataset and dataset Architecture 
-Comparison ADO & ADO.NET on disconnected Data architecture
-Implementing Disconnected Data Architecture
-Performing CRUD operations in disconnected architecture
-Entity Framework introduction.
-
 # .NET Data Providers**
 
 In ADO.NET, a **.NET Data Provider** is a collection of classes that enable data access and manipulation from various data sources. These providers are optimized for specific databases and serve as the bridge between the application and the data source. They handle connections, commands, data retrieval, and transactions efficiently.
